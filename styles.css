@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: #5F7782;
+    font-family: Arial, sans-serif;
+    color: #CFCFEA;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+h1 {
+    font-family: "Fleur De Leah", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8em;
+    margin-bottom: 0;
+}
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 2em;
+}
+.devobdy {
+    background-color: #5F7782;
+    color: #CFCFEA;
+    height: 100vh;
+    display: inline;
+}
+.devottl {
+    font-size: 8em;
+    margin-top: 10vh;
+}
+.devosbttl {
+    font-size: 2em;
+    margin-bottom: 10vh;
+}
+.devodv {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    background-color: #778A98;
+    border-radius: 5px;
+    padding: 4em;
+}
+.devonm {
+    font-family: "Fleur De Leah", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    margin-bottom: 5vh;
+    font-size: 5em;
+}
+.devosbnm {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    margin-bottom: 5vh;
+}
+p {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 5vh;
+    text-indent: 2em;
+    text-align: left;
+}
+.devop::first-letter {
+    font-family: "Fleur De Leah", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
