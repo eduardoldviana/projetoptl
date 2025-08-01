@@ -4,7 +4,7 @@
 body {
     background-color: #5F7782;
     font-family: Arial, sans-serif;
-    color: #CFCFEA;
+    color: #ded3cd;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -17,6 +17,7 @@ h1 {
     font-style: normal;
     font-size: 8em;
     margin-bottom: 0;
+    color: #ded3cd;
 }
 h2 {
     font-family: "Raleway", sans-serif;
@@ -24,6 +25,7 @@ h2 {
     font-weight: 100;
     font-style: normal;
     font-size: 2em;
+    color: #ded3cd;
 }
 .devobdy {
     background-color: #5F7782;
@@ -42,10 +44,11 @@ h2 {
 .devodv {
     margin-left: auto;
     margin-right: auto;
-    width: 80vw;
+    width: 70vw;
     background-color: #778A98;
     border-radius: 5px;
     padding: 4em;
+    margin-bottom: 10vh;
 }
 .devonm {
     font-family: "Fleur De Leah", serif;
