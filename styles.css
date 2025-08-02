@@ -6,80 +6,125 @@ body {
     font-family: Arial, sans-serif;
     color: #ded3cd;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    margin: 0;
+    padding: 0;
+    
 }
 h1 {
     font-family: "Fleur De Leah", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 8em;
+    font-size: 8rem;
     margin-bottom: 0;
     color: #ded3cd;
 }
 h2 {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: 200;
     font-style: normal;
     font-size: 2em;
     color: #ded3cd;
+}
+.devohd {
+  background-color: rgba(255, 255, 0, 0.2);
+  width: 100vw;
+  
 }
 .devobdy {
     background-color: #5F7782;
     color: #E8E8F2;
     height: 100vh;
-    display: inline;
+    
 }
 .devottl {
-    font-size: 8em;
-    margin-top: 10vh;
+    font-size: clamp(5rem, 4.134rem + 3.221vw, 8rem);
+    margin-top: clamp(1rem, 0.711rem + 1.074vw, 2rem);
+    text-align: center;
+    width: 100%;
+
 }
 .devosbttl {
-    font-size: 2em;
-    margin-bottom: 10vh;
+    font-size: clamp(0.8rem, 0.454rem + 1.289vw, 2rem);
+    margin-bottom: clamp(2rem, 0.846rem + 4.295vw, 6rem);
+    text-align: center;
 }
 .devodv {
-    margin-left: auto;
-    margin-right: auto;
-    width: 70vw;
     background-color: #414E58;
     border-radius: 10px;
-    padding: 6em;
-    margin-bottom: 10vh;
+    padding: clamp(1rem, -2.571rem + 9.524vw, 6rem);
+    padding-top: clamp(1rem, -1.143rem + 5.714vw, 4rem);
+    margin-left: clamp(0.5rem, -3.685rem + 15.57vw, 15rem);
+    margin-right: clamp(0.5rem, -3.685rem + 15.57vw, 15rem);
+    border: solid #E8E8F2 3px;
 }
 .devonm {
     font-family: "Raleway", serif;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: 200;
     font-style: normal;
-    margin-bottom: 5vh;
-    font-size: 4em;
+    margin-bottom: 1em;
+    font-size: clamp(2rem, 1.286rem + 1.905vw, 3rem);
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+a {
+    text-decoration: none;
+    color: #E8E8F2;
 }
 .devosbnm {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 2em;
-    margin-bottom: 5vh;
-    color: #ded3cd;
+    font-size: clamp(1.25rem, 0.714rem + 1.429vw, 2rem);
+    margin-bottom: 2em;
+    color: #E8E8F2;
+    font-style: italic;
+    text-align: center;
 }
 p {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 2em;
-    line-height: 5vh;
+    font-size: clamp(1rem, 0.286rem + 1.905vw, 2rem);
+    line-height: 2em;
     text-indent: 2em;
     text-align: left;
+    margin-bottom: 1em;
 }
 .devop::first-letter {
     font-family: "Fleur De Leah", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 2em;
+}
+h5 {
+    margin-top: 2.5em;
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: clamp(1.5rem, 1.143rem + 0.952vw, 2rem);
+    margin-bottom: 1em;
+    text-align: center;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: solid 2px #E8E8F2;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.spc {
+    background-color: #5F7782;
+    height: clamp(0.5rem, -2.714rem + 8.571vw, 5rem);
 }
